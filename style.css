@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.number-display {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    font-size: 2rem;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#game-over {
+    font-size: 2rem;
+    color: red;
+    margin-top: 20px;
+}
+
+#score {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+#timer {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
